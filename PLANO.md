@@ -73,7 +73,6 @@ Comprar ──► Mercado Pago ──► webhook /api/pagamento ──► marca 
 | Prévia | Grátis (3 por dia) | ~R$0,22 de IA cada |
 | HD digital | **R$9,90** | Taxa do Pix ~1% + IA |
 | Pacote com 3 estilos em HD | **R$19,90** | — |
-| Pôster impresso (fase 3) | R$79 a R$129 | Gráfica + frete |
 
 Uma venda de R$9,90 cobre cerca de 40 prévias grátis.
 
@@ -110,7 +109,7 @@ Configure um **limite de gasto** no fal.ai ou no Replicate desde o primeiro dia.
 
 **Fase 4 — Crescer**
 - LoRA próprio para o estilo ficar mais fiel
-- Pôster impresso com gráfica parceira
+- Pacotes de presente (casal, família, galera) e datas especiais
 - Vídeo curto de "antes e depois" para TikTok e Reels
 
 ## 9. Riscos
