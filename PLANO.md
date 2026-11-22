@@ -41,7 +41,8 @@ Os prompts descrevem só a estética: **nada de "GTA", "Rockstar", logos ou pers
 |---|---|---|
 | Site | **Next.js** na **Vercel Pro** | O plano grátis da Vercel não permite uso comercial |
 | IA | **FLUX Kontext** no **fal.ai** ou no **Replicate** | Transforma foto em estilo e não barra estilo artístico |
-| Estilo mais fiel (fase 2) | **LoRA** de estilo treinado com ~20 a 30 artes | Deixa o resultado com cara de "capa de jogo" |
+| Estilo | **LoRA** de estilo treinado com ~20 a 30 artes de referência (**decidido: Opção A**) | Deixa o resultado com cara de "capa de jogo" |
+| Fundos | **Camadas próprias** (céus, palmeiras, praias, cidade) geradas com o LoRA | Toda a arte do pôster é original; só a pessoa é gerada na hora |
 | Marca d'água e redução | **sharp**, no servidor | O HD nunca vai para o navegador antes do pagamento |
 | Armazenamento | **Supabase Storage** ou **Cloudflare R2**, em pasta privada | O HD fica guardado até o pagamento ser aprovado |
 | Banco de dados | **Supabase** (Postgres) | Guarda os pedidos: status, estilo, pago ou não |
@@ -90,9 +91,12 @@ Configure um **limite de gasto** no fal.ai ou no Replicate desde o primeiro dia.
 
 ## 8. Fases
 
-**Fase 1 — Testar o estilo (1 a 2 dias)**
-- Testar os prompts no fal.ai ou no Replicate com 10 a 20 fotos reais
-- Decidir se o resultado já está bom ou se precisa de LoRA
+**Fase 1 — Treinar e testar o estilo (1 a 2 dias)**
+- Separar 20 a 30 artes de referência (personagens e cenas completas)
+- Escrever legendas descrevendo só o estilo, sem nomes de personagens ou marcas
+- Treinar o LoRA (~US$2 a US$5) e testar com 10 a 20 fotos reais
+- As artes de referência ficam **fora do GitHub** e nunca aparecem no site
+- Gerar o primeiro pacote de fundos em camadas
 
 **Fase 2 — Site funcionando, sem pagamento (3 a 5 dias)**
 - Telas Início, Criar, Gerando e Resultado
