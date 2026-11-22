@@ -108,7 +108,7 @@ Configure um **limite de gasto** no fal.ai ou no Replicate desde o primeiro dia.
 - Lançar
 
 **Fase 4 — Crescer**
-- LoRA próprio para o estilo ficar mais fiel
+- Novos estilos e camadas de fundo
 - Pacotes de presente (casal, família, galera) e datas especiais
 - Vídeo curto de "antes e depois" para TikTok e Reels
 
