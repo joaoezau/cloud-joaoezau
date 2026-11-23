@@ -1,0 +1,16 @@
+# Configuração do conjunto de treino (kohya sd-scripts)
+[general]
+shuffle_caption = false
+caption_extension = ".txt"
+keep_tokens = 1
+
+[[datasets]]
+resolution = 768          # 768 cabe nos 12 GB; 1024 fica bem mais lento
+batch_size = 1
+enable_bucket = true      # aceita imagens em formatos diferentes (retrato, paisagem)
+min_bucket_reso = 512
+max_bucket_reso = 1280
+
+  [[datasets.subsets]]
+  image_dir = "dataset"
+  num_repeats = 10        # 25 imagens x 10 = 250 passos por época

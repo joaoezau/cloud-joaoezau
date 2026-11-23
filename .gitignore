@@ -2,3 +2,10 @@ node_modules
 .next
 .env*.local
 next-env.d.ts
+
+# Treino do LoRA: imagens de referência, modelos e resultados ficam fora do Git
+treino/dataset/
+treino/modelos/
+treino/saida/
+treino/cache/
+treino/sd-scripts/
