@@ -1,6 +1,6 @@
 # Leonida Poster — Plano
 
-Site que transforma a foto do usuário em um pôster no estilo das artes de capa de jogos de mundo aberto (neon, palmeiras, pintura digital, clima de Miami). Modelo inspirado no Fable: **prévia grátis, paga só se gostar.**
+Site que transforma a foto do usuário em um pôster no estilo das artes de capa de jogos de mundo aberto (neon, palmeiras, pintura digital, clima de Miami). Modelo inspirado no [Fable](https://fable.surrealium.world/): **prévia grátis, paga só se gostar.**
 
 ---
 
